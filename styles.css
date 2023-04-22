@@ -1,0 +1,28 @@
+/* Image container */
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 450vh;
+  background-color: #F0F0F0;
+  padding-top: 0;
+}
+
+/* Individual image */
+.image {
+margin-bottom: 0;
+border: 2px solid #fff;
+/* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
+overflow: hvisible;
+}
+
+
+/* Image caption */
+.caption {
+text-align: center;
+font-size: 14px;
+background-color: transparent;
+color: #333;
+
+}
